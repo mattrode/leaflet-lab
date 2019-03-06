@@ -1,0 +1,74 @@
+/* Stylesheet by Matt Rodenberger, 2019 */
+
+#body {
+  font-family: sans-serif;
+}
+
+
+#map {
+	height: 99%;
+	width: 99%;
+	position: fixed;
+  z-index: 1;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#panel-wrapper {
+  background-color: 	#FDFDFD;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 10px 20px;
+  height: 160px;
+  width: 20%;
+  padding: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+  z-index: 1000;
+  font-family: sans-serif;
+  opacity: .8
+
+}
+
+#panel-slider {
+  margin: 10px;
+}
+
+#attribute-legend {
+  width: inherit;
+}
+
+.legend-control-container {
+	background-color: 	#FDFDFD;
+  border-style: solid;
+  border-width: 1px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 10px 20px;
+	font-weight: bold;
+	width: 200px;
+	transform: translateY(-10px);
+  font-family: sans-serif;
+  opacity: .8
+  bottom: 25px;
+}
+
+.sequence-control-container {
+	width: 260px;
+	height: 34px;
+	background-color: 	#FDFDFD;
+	padding: 10px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 20px 30px;
+	transform: translateY(-35px);
+  font-family: sans-serif;
+  opacity: .8
+  right: 25px;
+}
+.range-slider {
+	width: 200px;
+}
