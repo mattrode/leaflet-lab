@@ -168,7 +168,7 @@ function createLegend(map, attributes) {
 				min: 130
 			};
 
-      svg += '<text id="label-text" x="50" y="25">Yearly Rain Data</text>';
+      svg += '<text id="label-text" x="18" y="25">Yearly Rain Data for All Cities</text>';
 
 			//loop to add each circle and text to svg string
 			for (var circle in circles) {
@@ -309,7 +309,9 @@ function updatePropSymbols(map, attribute){
 
 function createWelcomeSplash() {
    var panelContent = `
-    <h3>Welcome, please choose a city yo</h3>
+    <h3>Welcome, please choose a city to see the yearly rainfall
+    for each city here. While the right will show you the maximum,
+    minimum and mean rainfall for all cities.</h3>
    `;
    $("#panel").html(panelContent);
 
